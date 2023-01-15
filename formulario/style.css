@@ -1,0 +1,25 @@
+.card {
+    background-color: #eee;
+    width: 500px;
+    margin: auto;
+    padding: 30px;
+}
+
+li {
+    background-color: #cceaff;
+    margin: 10px;
+    border: 1px solid #5caBef;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+ol {
+    padding: 30px;
+    list-style: upper-alpha;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
