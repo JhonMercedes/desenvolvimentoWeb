@@ -83,8 +83,38 @@ body {
     cursor: pointer;
 }
 
+.barra2-hr {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 0px;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
+.menu li {
+    display: inline-block;
+    list-style: none;
+    font-family: 'Myriad Pro';
+    font-weight: bold;
+    padding: 10px 12px;
+}
 
+.menu li:hover {
+    background: #003366;
+    color: #fff;
+    border-radius: 20px;
+}
 
 
 
