@@ -22,12 +22,13 @@ Foco 2023 é finalizar o curso desenvolvimento web fullstack, colocar em prátic
   - [Projeto WEB - Replicando](https://www.projetoweb.com.br/sites-padrao-prontos-simples-baratos-lancamentos/padrao1-programado/) 🖇️ 
 
 ## ✒️ Equipe de estudo
-
+<div>
 <img src="https://icongr.am/devicon/git-original.svg?size=20&color=currentColor" alt="CSS3"/> 
 <img src="https://icongr.am/devicon/css3-original.svg?size=20&color=currentColor" alt="CSS3"/> 
 <img src="https://icongr.am/devicon/html5-original.svg?size=20&color=currentColor" alt="HTML5"/>
 <img src="https://icongr.am/devicon/linux-original.svg?size=20&color=currentColor" alt="linux"/>
 <img src="https://icongr.am/devicon/github-original.svg?size=20&color=currentColor" alt="github"/>
+</div>
 
 [Lucas Santos](https://github.com/shootzgyn)<br>
 [Lucas Teixeira](https://github.com/Teixeira00)<br>
