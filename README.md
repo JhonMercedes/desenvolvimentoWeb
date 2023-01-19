@@ -9,7 +9,7 @@ Css Intermediário
 Projetos
 - 1 Desafios 
   - Criando um CV
-  ![curriculo](images-projetos/desafio-cv.png)
+  ![Uploading desafio-cv.png…]()
   - Pagina de captura 
   ![paginacaptura](images-projetos/desafio-captura.png)
 
