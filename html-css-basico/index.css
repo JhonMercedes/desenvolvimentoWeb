@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    border: 5px solid;
+    border-color: blue;
+    max-width: 100%;
+    margin: 10px;
+}
+
+.title h1{
+    border: 1px solid;
+    border-color: red;
+    text-align: center;
+    margin: 50px;
+    padding: 15px;
+    text-shadow: 3px 3px 1px green
+}
+
+.paragrafo {
+    border: 2px solid;
+    text-align: center;
+    margin: 10px 100px;
+
+}
+
+p {
+    color: blueviolet;
+}
+
+.img {
+    border: 2px solid;
+    color: brown;
+    margin: 10px;
+    display: flex;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+}
+
