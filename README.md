@@ -1,19 +1,42 @@
-Desenvolvimento WEB
+# Desenvolvimento WEB
 
-HTML Básico
-HTML Intermediário
+Foco 2023 é finalizar o curso desenvolvimento web fullstack, colocar em prática todo aprendizado criando e replicando projetos durante essa jornada.
+## 🚀 Começando 
 
-Css Básico
-Css Intermediário 
+> PRIMEIRO MODULO EM ANDAMENTO
+- 📌 HTML Básico
+- 📌 HTML Intermediário
+- 📌 Css Básico
+- 📌 Css Intermediário 
 
-Projetos
-- 1 Desafios 
+### 📦 Projetos
+
+  >📋 Prints anexados no diretorio *imagens-projetos*
+
+1. 🛠️ Desafios 
   - Criando um CV    
-  ![desafio-cv](https://user-images.githubusercontent.com/55337757/213350940-79a18181-ab82-4a6f-a287-d313ddb940a0.png)
   - Pagina de captura          
-  ![desafio-captura](https://user-images.githubusercontent.com/55337757/213351054-2aa84f0e-7b87-4d1b-a985-7c0a6d2488cd.png)
+ 
 
-1. Desafios Equipe
-  > Aplicar aprendizado replicando projetos existentes
-  `Primeiro Projeto`          
-  ![replicando-projeto1](https://user-images.githubusercontent.com/55337757/213351077-f746e30e-f4f0-4f1b-b7ea-34e2f91e5348.png)
+2. 🛠️ Desafios entre Equipe
+  - [Projeto WEB - Replicando](https://www.projetoweb.com.br/sites-padrao-prontos-simples-baratos-lancamentos/padrao1-programado/) 🖇️ 
+
+## ✒️ Equipe de estudo
+
+<img src="https://icongr.am/devicon/git-original.svg?size=20&color=currentColor" alt="CSS3"/> 
+<img src="https://icongr.am/devicon/css3-original.svg?size=20&color=currentColor" alt="CSS3"/> 
+<img src="https://icongr.am/devicon/html5-original.svg?size=20&color=currentColor" alt="HTML5"/>
+<img src="https://icongr.am/devicon/linux-original.svg?size=20&color=currentColor" alt="linux"/>
+<img src="https://icongr.am/devicon/github-original.svg?size=20&color=currentColor" alt="github"/>
+
+[Lucas Santos](https://github.com/shootzgyn)<br>
+[Lucas Teixeira](https://github.com/Teixeira00)<br>
+[Jhon Armando](https://github.com/JhonMercedes) 
+
+
+
+### Linkedin <img src="https://icongr.am/devicon/linkedin-original.svg?size=20&color=currentColor" alt="CSS3"/> 
+
+[Lucas Santos](https://www.linkedin.com/in/lucas-santos-1a97a0136/)<br>
+[Lucas Teixeira](https://www.linkedin.com/in/lucas-teixeira-martins-528568254/)<br>
+[Jhon Armando](https://www.linkedin.com/in/jhon-mercedes/)
