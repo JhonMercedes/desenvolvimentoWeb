@@ -187,3 +187,50 @@ body {
     transition: all 0.5s;
 }
 
+.painel2 {
+    background: #003366;
+}
+
+.painel2 .ofertas {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around ;
+}
+.painel2 .ofertas .oferta {
+    margin: 20px 0px;
+    width: 300px;
+    box-sizing: border-box;
+    border: 2px solid rgba(251, 251, 251, 0.13);
+    padding: 15px 10px;
+    text-align: center;
+    border-radius: 15px ;
+}
+.ofertas .oferta:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+.ofertas .oferta .img {
+    width: 100%;
+    height: 157px;
+    overflow: hidden;
+}
+.ofertas .oferta .titulo {
+    font: 28px 'calibri';
+    color: #fff;
+    margin: 40px 0px;
+}
+.ofertas .oferta .conteudo {
+    font: 18px/30px 'calibri';
+    color: #fff;
+    margin: 40px 0px;
+}
+.ofertas .btn-mais {
+    padding: 20px 70px;
+    background: #72120B;
+    margin: 0 auto;
+    color: #fff;
+    font: 20px 'calibri';
+    display: table;
+    border-radius: 8px;
+}
