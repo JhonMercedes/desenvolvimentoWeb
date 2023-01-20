@@ -159,6 +159,12 @@ body {
     box-shadow: -1px -1px 2px 0px #fff inset;
 }
 
+.painel1 .bemvindo .linha .barra {
+    width: 80px;
+    height: 100%;
+    background: #72120B;
+    position: relative;
+}
 .painel1 .bemvindo .text {
     font: 20px/25px 'calibri';
     text-shadow: 0px 0px 1px #eee;
@@ -180,3 +186,4 @@ body {
     transform: scale(1.1);
     transition: all 0.5s;
 }
+
