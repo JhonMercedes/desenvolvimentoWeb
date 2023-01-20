@@ -317,13 +317,80 @@ body {
     display: table;
     cursor: pointer;
     border-radius: 8px;
-
 }
 
+.painel4 {
+    background: #003366;
+}
 
+.footer {
+    justify-content: space-around;
+    width: 300px;
+    margin: 0 auto;
+}
+.footer .item {
+    color: #fff;
+    font: 17px 'calibri';
+    padding: 10px 0px;
+    width: 270px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.footer .item i {
+    color: #fff;
+    font-size: 25px;
+    display: block;
+    text-align: center;
+    padding: 0px 10px;
+    width: 30px;
+}
 
+.footer.contatos{
+    display: flex;
+    align-items: center;
+}
+.footer.contatos p {
+    border-right: 2px solid #fff;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.item-painel4 {
+    width: 1200px;
+    display: flex;
+    margin: 0px auto;
+    align-items: center;
+    padding: 20px;
+}
+.footer p strong {
+    color: #fff;
+    font: 20px 'calibri';
+    font-weight: bold;
+    padding: 10px;
+}
 
+.item.whats {
+    background: #2ba531;
+    border-radius: 30px;
+    padding: 10px 0px!important;
+    font-weight: bold;
+}
 
+.item.online {
+    background: #00b29c;
+    border-radius: 30px;
+    padding: 10px 0px!important;
+    margin-top: 10px;
+    font-weight: bold;
+}
 
+.item.whats:hover {
+    background: #239529;
+    cursor: pointer;
+}
 
-
+.item.online:hover {
+    background: #048676;
+    cursor: pointer;
+}
