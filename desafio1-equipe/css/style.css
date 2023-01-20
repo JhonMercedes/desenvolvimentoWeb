@@ -234,3 +234,96 @@ body {
     display: table;
     border-radius: 8px;
 }
+
+
+.contato {
+    width: 904px;
+    margin: 30px auto;
+    opacity: 0.6;
+    transition: all linear 0.8s 0.55s;
+}
+
+.painel3:hover .contato {
+    opacity: 1;
+    transition: all linear 0.5s;
+}
+
+.contato .titulo {
+    font: 45px 'calibri';
+    color: #72120B;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contato .titulo::first-line {color: #003366;}
+.contato .linha {
+    height: 4px;
+    background: #eee;
+    width: 100%;
+    margin: 20px 0px 0px;
+    position: relative;
+    box-shadow:  -1px -1p 2px 0px #fff inset;
+}
+
+.contato .linha .barra {
+    width: 80px;
+    transition: all linear 0.8s 0.55s;
+    height: 100%;
+    background: #72120B;
+    position: relative;
+}
+.contato:hover .linha .barr a {
+    width: 100%;
+    transition: all linear 0.5s;
+}
+
+.contato .item {
+    width: 450px;
+    display: inline-block;
+    vertical-align: top
+}
+.contato input {
+    width: 100%;
+    padding: 19px 20px;
+    margin-bottom: 10px;
+    border: none;
+    background: #fff;
+    box-sizing: border-box;
+    background: #eee;
+    outline: none !important;
+    font: 18px 'calibri';
+    border-radius: 7px;
+}
+.contato textarea {
+    width: 100%;
+    height: 200px;
+    padding: 19px 20px;
+    margin-bottom: 10px;
+    border: none;
+    background: #fff;
+    box-sizing: border-box;
+    background:  #eee;
+    outline: none!important;
+    resize: none;
+    font: 18px 'calibri';
+}
+.contato .submit {
+    width: 100%;
+    padding: 20px 70px;
+    background: #72120B;
+    margin: 0 auto;
+    color: #fff;
+    font: 20px 'calibri';
+    display: table;
+    cursor: pointer;
+    border-radius: 8px;
+
+}
+
+
+
+
+
+
+
+
