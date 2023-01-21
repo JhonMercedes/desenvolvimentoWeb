@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    width: 100%;
+    margin-top: 250px;
+    background: black;
+    font-family: 'Ubuntu Mono';
+    font-size: 23px;
+}
+.formulario {
+    max-width: 100%;
+    width: 420px;
+    margin: 0 auto;
+    position: relative;
+}
+.btn-fechar {
+    font-size: 10px;
+    color: black;
+    cursor: pointer;
+    position: absolute;
+    right: 7px;
+    top: 7px;
+    z-index: 400;
+}
+
+.login {
+    background-color: transparent;
+    box-shadow: none;
+    box-sizing: border-box;
+}
+.login .conteudo {
+    color: #ffff;
+}
+
+.social {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px;
+}
+.icons {
+    justify-content: center;
+    display: flex;
+}
+.icons .facebook {
+    font-size: 16px;
+    align-items: center;
+    border-radius: 50%;
+    display: flex;
+    color: #004AAD;
+    justify-content: center;
+    margin: 0 5px;
+    height: 41px;
+    width: 41px;
+}
+.icons .twitter {
+    font-size: 16px;
+    align-items: center;
+    border-radius: 50%;
+    display: flex;
+    color: #46c8f5;
+    justify-content: center;
+    margin: 0 5px;
+    height: 41px;
+    width: 41px;
+}
+.icons .linkedin {
+    font-size: 16px;
+    align-items: center;
+    border-radius: 50%;
+    display: flex;
+    color: #007aff;
+    justify-content: center;
+    margin: 0 5px;
+    height: 41px;
+    width: 41px;
+}
+.icons .google {
+    font-size: 16px;
+    align-items: center;
+    border-radius: 50%;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    margin: 0 5px;
+    height: 41px;
+    width: 41px;
+}
+.icons .apple {
+    font-size: 16px;
+    align-items: center;
+    border-radius: 50%;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    margin: 0 5px;
+    height: 41px;
+    width: 41px;
+}
+.or {
+    color: gray;
+    text-align: center;
+    font-size: 16px;
+}
+label {
+    color: #fff;
+    font-size: 16px;
+}
+
+.input {
+    background-color: rgba(255, 255, 255, 0.15);
+    color: white;
+    border-color: transparent;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.input input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    margin: 0 10px;
+    padding: 8px;
+    color: white;
+}
+
+.btn {
+    margin-top: 20px;
+    background-color: #1F2432;
+    color: white;
+    border-color: transparent;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.btn button {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    margin: 0 10px;
+    padding: 8px;
+    color: white;
+}
+.help {
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+.help .item {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.help .item a {
+    color: blue;
+}
+
