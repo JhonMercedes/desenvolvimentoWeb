@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    border: 2px solid blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 20px 5%;
+}
+.logo {
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+nav {
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+section {
+    border: 2px solid blue;
+    overflow-x: hidden;
+}
+section img {
+    border: 2px solid red;
+}
