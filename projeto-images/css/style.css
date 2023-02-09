@@ -7,7 +7,6 @@
     font-family: 'Signika Negative', sans-serif;
 }
 header {
-    border: 1px solid blue;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,7 +14,6 @@ header {
     padding: 20px 5%;
 }
 .logo {
-    border: 1px solid red;
     display: flex;
     align-items: center;
     gap: 5px;
@@ -26,14 +24,13 @@ header {
 }
 
 nav {
-    border: 1px solid red;
     display: flex;
     align-items: center;
     gap: 25px;
 }
 
-section {
-    overflow-x: hidden;
+section img {
+    width: 100%;
 }
 
 .promocao {
@@ -55,13 +52,14 @@ section {
 }
 
 main {
-    border: 2px solid blue;
     display: flex;
     justify-content: space-between;
-    padding: 20px 5%;
+    padding: 30px 5%;
 }
 .coluna { 
-    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
    
 }
 
@@ -74,4 +72,82 @@ main {
     width: 250px;
     height: 250px;
     object-fit: cover;
+    border-radius: 10px;
+}
+.produto span {
+    font-weight: 600;
+}
+
+.preco {
+    color: #5ca720;
+}
+
+footer {
+    background-color: #eee;
+}
+
+.footer-cima {
+    border-top: 2px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5%;
+}
+
+.esquerdo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.esquerdo a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #161616;
+}
+.direito {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.direito span {
+    font-weight: 700;
+    color: #161616;
+}
+
+.direito .grupo-input {
+    display: flex;
+    align-items: center;
+}
+.input {
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #eee;
+    border-radius: 4px;
+}
+.input-btn {
+    width: 90px;
+    height: 40px;
+    border: 1px solid #eee;
+    background-color: #5ca720;
+    color: #fff;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.footer-baixo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    border-top: 2px solid #ddd;
+}
+.baixo-esquerdo, .baixo-direito{
+    display: flex;
+    gap: 10px;
+}
+
+.footer-img {
+    height: 20px;
 }
