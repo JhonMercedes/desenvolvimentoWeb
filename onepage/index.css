@@ -9,7 +9,7 @@ body {
 .header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: white;
 }
 ul {
@@ -40,4 +40,49 @@ ul > li >a:hover {
     background-color: black;
     color: white;
     border-radius: 10px;
+}
+.btn {
+    font-size: 1.2em;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(11, 220, 11);
+    box-shadow: 1px 1px 1px 1px greenyellow;
+    border: none;
+    border-radius: 10px;
+    padding: 4px 8px 4px 8px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.btn:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+hr {
+    opacity: 0.3;
+}
+.second {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+    margin: 80px 20px 30px 0px;
+}
+.title {
+    padding: 2px;
+    margin: 10px 0 10px 0;
+    font-weight: 800;
+    font-size: 3em;
+}
+.sub-title{
+    padding: 3px;
+    margin: 10px 0px 10px 0;
+    font-weight: 400;
+    opacity: 0,7;
+    font-size: 1.2em;
+    letter-spacing: 0.5px;
+}
+.btn-main{
+    margin:10px 0px 10px 0px;
+    border-radius: 3px;
+    padding: 5px 10px 5px 10px;
 }
