@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 1.6rem;
+}
+.box {
+    padding: 2.9rem 4.8rem;
+    background-color: #363447;
+    box-shadow: 0.3rem 0.4rem 2.6rem rgba(0,0,0,0.25);
+    border-radius: 1.6rem;
+}
+
+#app {
+    display: grid;
+    grid-template-columns: max-content max-content max-content;
+
+    width: 100vw;
+    height: 100vh;
+    
+    padding: 11.2rem 12.3rem;
+
+    column-gap: 3.2rem;
+    row-gap: 5.9rem;
+}
+.box:nth-child(4) {
+    background-color: red;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
