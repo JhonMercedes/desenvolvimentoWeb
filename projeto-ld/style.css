@@ -4,9 +4,51 @@
     list-style: none;
     text-decoration: none;
 }
+
+nav .content h1 span.bold {
+    font-weight: 800;
+}
+
 nav {
     width: 100%;
+    height: auto;
+    position: absolute;
+}
 
+nav .content {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 0 0 0;
+    box-sizing: border-box;
+}
+nav .content h1.titulo{
+    font-size: 16px;
+    font-weight:lighter;
+}
+nav .list {
+    margin: 0 35px 0 0 ;
+    font-size: 16px;
+=
+}
+nav .list li {
+    display: inline;
+    margin: 0 0 0 30px;
+}
+nav ul.list li.button-menu {
+    padding: 13px 18px;
+    border-radius: 3px;
+    background-color: #6b76ff;
+}
+nav ul.list li.button-menu a{
+    color: #fff;
+}
+nav .content ul.list li.button-menu a:hover {
+    color: rgb(39, 39, 39);
+}
+nav .list ul.list .li.button-menu a {
+    color: rgb(39, 39, 39);
 }
 
 .image-bg {

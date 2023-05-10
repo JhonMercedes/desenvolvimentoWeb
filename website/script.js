@@ -1,13 +1,13 @@
-var swiper = new Swiper(".mySwiper", {
+var swiper = Swiper(" .mySwiper", {
     cssMode: true,
     loop: true,
-    navegation: {
-        nextE1: "swiper-button-next",
-        nextE2: "swiper-button-prev",
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
     },
     pagination: {
-        e1: ".swiper-pagination",
+      el: ".swiper-pagination",
     },
-    mouseshee1: true,
-    keybord: true,
-});
+    mousewheel: true,
+    keyboard: true,
+  });
